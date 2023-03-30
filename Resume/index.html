@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Builder</title>
+  <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Templates</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1>Create Your Resume</h1>
+      <form>
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="full-name">Full Name</label>
+          <input type="text" id="full-name" name="full-name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" required>
+          <label for="address">Address</label>
+          <input type="text" id="address" name="address" required>
+        </fieldset>
+        <fieldset>
+          <legend>Education</legend>
+          <label for="degree">Degree</label>
+          <input type="text" id="degree" name="degree" required>
+          <label for="major">Major</label>
+          <input type="text" id="major" name="major" required>
+          <label for="school">School</label>
+          <input type="text" id="school" name="school" required>
+          <label for="graduation-date">Graduation Date</label>
+          <input type="date" id="graduation-date" name="graduation-date" required>
+        </fieldset>
+        <fieldset>
+          <legend>Work Experience</legend>
+          <label for="job-title">Job Title</label>
+          <input type="text" id="job-title" name="job-title" required>
+          <label for="company-name">Company Name</label>
+          <input type="text" id="company-name" name="company-name" required>
+          <label for="employment-date">Employment Date</label>
+          <input type="date" id="employment-date" name="employment-date" required>
+          <label for="job-description">Job Description</label>
+          <textarea id="job-description" name="job-description" required></textarea>
+        </fieldset>
+        <fieldset>
+          <legend>Skills</legend>
+          <label for="skill-1">Skill 1</label>
+          <input type="text" id="skill-1" name="skill-1" required>
+          <label for="skill-2">Skill 2</label>
+          <input type="text" id="skill-2" name="skill-2" required>
+          <label for="skill-3">Skill 3</label>
+          <input type="text" id="skill-3" name="skill-3" required>
+        </fieldset>
+        <fieldset>
+          <legend>References</legend>
+          <label for="ref-name-1">Reference 1 Name</label>
+          <input type="text" id="ref-name-1" name="ref-name-1" required>
+          <label for="ref-email-1">Reference 1 Email</label>
+          <input type="email" id="ref-email-1" name="ref-email-1" required>
+          <label for="ref-phone-1">Reference 1 Phone</label>
+          <input type="tel" id="ref-phone-1" name="ref-phone-1" required>
+          <label for="ref-name-2">Reference 2 Name</label>
+          <input type="text" id="ref-name-2" name="ref-name-2" required>
+          <label for="ref-email-2">Reference 2 Email</label>
+          <input type="email" id="ref-email-2" name="ref-email-2" required>
+          <label for="ref-phone-2">Reference 2 Phone</label>
+          <input type="tel" id="ref-phone-2" name="ref-phone-2" required>
+        </fieldset>
+        <button type="submit">Create Resume</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Resume Builder. All rights reserved.</p>
+  </footer>
+  <script src="../../js/resume/resume.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    //font-family: 'Alkatra', cursive;
+    color: black;
+}
+::selection{
+    background-color: rgba(0, 213, 241, 0.384);
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+.top{
+    height: 10%;
+    background-color: rgb(0, 12, 27);
+    
+}
+.info{
+    width: 30%;
+    height: 70%;
+    //background-color: rgb(99, 168, 185);
+    display: inline-flex;
+    margin: 10px;
+}
+.prof{
+    width: 100px;
+    //background-color: aqua;
+    height: 20%;
+    display: inline-block;
+    margin: 10px;
+   // position: relative;
+   
+}
+.p1{
+    
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    border: 1px solid rgb(0, 0, 58);
+}
+.p2{
+    position: relative;
+    width: 70%;
+    padding: 4px;
+  
+    overflow: hidden;
+    height: 35%;
+    color: #1aabff;
+    font-weight: bold;
+
+}
+img{
+    width: 100%;
+}
+
+.f2,.f3{
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+}
+.in2{
+    background-color: transparent;
+}
+.in3{
+    position: relative;
+    bottom: px;
+    left: 300px;
+}
+
+/*-------------------------------------------*/
+
+
+
+/*-------------------------------------------*/
+.bdy{
+    height: 80%;
+    //background-color: rgb(131, 113, 113);
+    padding: 20px;
+}
+.box{
+    width: 20%;
+    height: 20%;
+    margin: 15px;
+    display: inline-block;
+    border-radius: 7px;
+    border: 1px solid rgba(135, 207, 235, 0.308);
+    background-color: ;
+    box-shadow: 1px 1px 19px 3px #00111c;
+    padding: 10px;
+    //animation: ani 5s ease infinite;
+}
+
+.box:hover{
+    box-shadow: 1px 1px 10px 8px #011d2f;
+    border: 1px solid rgba(135, 207, 235, 0.658);
+    //box-shadow: rgba(0, 225, 255, 0.699) 0px 8px 24px;
+    //box-shadow: rgba(0, 225, 255, 0.699) 0px 7px 29px 0px;
+    
+}   
+.txt{
+    width: 100px;
+    height: 100px;
+    //background-color: #38b6ff;
+
+}
+/*-------------------------------------------*/
+
+
+
+/*h1{
+    text-align: center;
+    padding:100px;
+    color:rgb(0, 204, 255);
+    font-weight: 1000;
+    font-size: 50px;
+    text-shadow: 2px 2px 1px rgb(214, 211, 0);
+}
