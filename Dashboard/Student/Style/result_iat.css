@@ -1,0 +1,25 @@
+.bdy{
+    width: 100%;
+    height: 100%;  
+
+}
+.iat{
+    height: 46%;    
+}
+.iat-1{
+
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+table tr{
+
+}
+table tr th,td{
+    border: 2px solid rgb(0, 123, 194);
+    padding: 5px;
+    cursor: default;
+    color: rgb(212, 241, 255);
+}
